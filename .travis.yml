@@ -8,6 +8,4 @@ matrix:
     script:
      - gcc -o test calculator.c 
      - ./test 
-© 2019 GitHub, Inc.
-Terms
 
