@@ -1,38 +1,22 @@
-#include<stdio.h>
-#include<math.h>
-#include<stdlib.h>
-#include<assert.h>
-
-int add(int val1,int val2){
- int total=0;
-
-  total=val1+val2;
-  return total;
-
+#include <stdio.h>
+ 
+int main()
+{
+   int first, second, add, subtract, multiply;
+   first= 2;
+   second=3;
+   float divide;
+ 
+   add = first + second;
+   subtract = first - second;
+   multiply = first * second;
+   divide = first / (float)second;   //typecasting
+ 
+   printf("Sum = %d\n", add);
+   printf("Difference = %d\n", subtract);
+   printf("Multiplication = %d\n", multiply);
+   printf("Division = %.2f\n", divide);
+ 
+   return 0;
 }
 
-
-int sub(int val1,int val2){
- int total=0;
-
-  total=val1-val2;
-  return total;
-
-}
-
-
-
-int main(){
-  assert (add(2,2)==4);
-  assert (add(2,-2)==0);
-  assert (add(-2,4)==2);
-  assert (add(-2,-4)==-6);
-  printf("all test cases passed\n");
-
-  assert (sub(2,4)==-2);
-  assert (sub(2,-4)==6);
-  assert (sub(-2,4)==-6);
-  assert (sub(-2,-4)==2);
-    printf("all test cases passed\n");
-
-}
