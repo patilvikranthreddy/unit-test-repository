@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/patilvikranthreddy/unit-test-repository.svg?branch=master)](https://travis-ci.org/patilvikranthreddy/unit-test-repository)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b215351bc3b3425eb924eaf651121349)](https://www.codacy.com/app/patilvikranthreddy/unit-test-repository?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=patilvikranthreddy/unit-test-repository&amp;utm_campaign=Badge_Grade)
