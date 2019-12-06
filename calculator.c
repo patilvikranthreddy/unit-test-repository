@@ -2,16 +2,16 @@
  
 int main()
 {
-   int first;
- int second, add, subtract, multiply;
+   int first,second, add, subtract, multiply;
+   first=5;
    second=3;
    float divide;
  
    add = first + second;
    subtract = first - second;
    multiply = first * second;
-    //typecasting
- 
+   divide = (float) first/second; //typecasting
+    
    printf("Sum = %d\n", add);
    printf("Difference = %d\n", subtract);
    printf("Multiplication = %d\n", multiply);
