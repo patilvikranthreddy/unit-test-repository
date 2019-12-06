@@ -16,7 +16,7 @@ int main()
    printf("Difference = %d\n", subtract);
    printf("Multiplication = %d\n", multiply);
    printf("Division = %.2f\n", divide);
- 
+   
    return 0;
 }
 
