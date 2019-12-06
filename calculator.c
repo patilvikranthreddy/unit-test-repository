@@ -11,7 +11,7 @@ int main()
    add = first + second;
    subtract = first - second;
    multiply = first * second;
-   divide = first / (float)second;   //typecasting
+    //typecasting
  
    printf("Sum = %d\n", add);
    printf("Difference = %d\n", subtract);
