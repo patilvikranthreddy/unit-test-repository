@@ -2,7 +2,8 @@
  
 int main()
 {
-   int first, second, add, subtract, multiply;
+   int first;
+ int second, add, subtract, multiply;
    first= 2;
    second=3;
    float divide;
